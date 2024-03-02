@@ -22,7 +22,7 @@ computations, drawing inspiration from the methods described in the original wor
     print("Multiplication result:", result)
     ```
 ## Contributing
-   The Leelavati library is a collaborative effort by a group of 6 students. 
+   The Leelavati library is a collaborative effort by a group of 6 students:
     - Kshitij Joshi
     - Kanishk Mittal
     - Aditya Gopal
