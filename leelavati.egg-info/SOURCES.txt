@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-leelavati/__init__.py
-leelavati.egg-info/PKG-INFO
-leelavati.egg-info/SOURCES.txt
-leelavati.egg-info/dependency_links.txt
-leelavati.egg-info/top_level.txt
