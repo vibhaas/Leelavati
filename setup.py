@@ -1,11 +1,21 @@
-from setuptools import setup
-with open("README.md","r") as f:
-    description=f.read()
-setup(name="leelavati",
-version="1.0.0",
-description="This is a repository to create a python library to implement algorithms given in the book leelavati by Bhaskarachary",
-long_description=description,
-long_description_conten_type="text/markdown",
-packages=["leelavati"],
-install_requires=[""]
+"""
+Setup script for the Leelavati library.
+"""
+import setuptools
+
+with open('README.md', 'r',encoding='utf-8') as f:
+    long_description = f.read()
+
+setuptools.setup(
+    name='leelavati',
+    version='1.0.0',
+    packages=setuptools.find_packages(),
+    install_requires=[],
+    author='Your Name',
+    author_email='projectleelavati@gmail.com',
+    description='Description of your library',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    license='MIT',
+    url='https://github.com/Project-Leelavati/Leelavati.git',
 )
