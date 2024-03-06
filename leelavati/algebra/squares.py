@@ -33,6 +33,3 @@ def square(num):
             
     ''' returning the final answer present in num_square'''
     return num_square
-
-x=str(input())
-print(square(x))
