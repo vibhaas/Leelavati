@@ -8,6 +8,3 @@ def add(*args):
         res += column_sums[i]10*(i)
         
     return res
-# Example usage:
-result = add(123, 456, 789)
-print(result)  # Output: [9+6+3, 8+5+2, 7+4+1]
