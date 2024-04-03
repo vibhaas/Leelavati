@@ -27,7 +27,3 @@ def subtract(a, b):
         result.pop(0)
 
     return result
-
-# Example usage:
-result = subtract(12345, 6789)
-print("".join(str(digit) for digit in result))
