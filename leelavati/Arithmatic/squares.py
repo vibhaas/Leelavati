@@ -1,7 +1,6 @@
+import math
 '''importing math module to perform basic calculations'''
 
-
-import math
 def square(num):
     
     num_square=0
