@@ -26,4 +26,6 @@ def subtract(a, b):
     while result[0] == 0:
         result.pop(0)
 
-    return result
+    result_int = int(''.join(map(str, result)))
+
+    return result_int
