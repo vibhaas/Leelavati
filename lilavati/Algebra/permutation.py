@@ -20,4 +20,4 @@ def permutation(n: int, r: int) -> int:
     return product
 
 # Example usage:
-# print(calculate_permutations(5, 3))  # Output: 20
+# print(permutation(10, 3))  # Output: 20

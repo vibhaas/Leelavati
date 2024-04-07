@@ -14,8 +14,7 @@ computations, drawing inspiration from the methods described in the original wor
     - Vidya Kaarthika Akella
     - Sejal Satheesh
 
-   We welcome contributions from the community! 
-   If you'd like to contribute to the Leelavati library, please check out our [contribution guidelines](CONTRIBUTING.md).
-
 ## Documentation
-   For detailed documentation on all available functions and their usage, please refer to the [documentation folder/file/link].
+   For detailed documentation on all available functions and their usage, please refer to following
+   - [Algebra.md](lilavati/Algebra/Algebra.md) -> for algebric functions.
+   - [Geometry.md](lilavati/Geometry/Geometry.md) -> for geometric functions.
