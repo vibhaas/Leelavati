@@ -7,7 +7,7 @@ with open('README.md', 'r',encoding='utf-8') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name='leelavati',
+    name='lilavati',
     version='1.0.0',
     packages=setuptools.find_packages(),
     install_requires=[],

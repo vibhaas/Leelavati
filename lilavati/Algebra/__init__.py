@@ -6,6 +6,9 @@ from .quadraticEqns import *
 from .sqroot import *
 from .subtraction import *
 from .unitConverter import *
+from .combination import *
+from .permutation import *
+from .sum_of_permutation import *
 
 """
     Initialisation script for Arithmatic sub-package
