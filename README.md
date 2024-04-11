@@ -16,5 +16,5 @@ computations, drawing inspiration from the methods described in the original wor
 
 ## Documentation
    For detailed documentation on all available functions and their usage, please refer to following
-   - [Algebra.md](lilavati/Algebra/Algebra.md) -> for algebric functions.
-   - [Geometry.md](lilavati/Geometry/Geometry.md) -> for geometric functions.
+   - [Algebra.md](https://github.com/Kanishk-mittal/Project-Leelavati/blob/main/lilavati/Algebra/Algebra.md) -> for algebric functions.
+   - [Geometry.md](https://github.com/Kanishk-mittal/Project-Leelavati/blob/main/lilavati/Geometry/Geometry.md) -> for geometric functions.

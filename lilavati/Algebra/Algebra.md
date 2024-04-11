@@ -92,7 +92,7 @@ The function returns an integer representing the number of combination of choosi
 ## Algorithm
 
 The combinaiton algorithm is implemeted usign the following method from leelavati book 
-![alt text](img/combination.png)
+![alt text](https://github.com/Kanishk-mittal/Project-Leelavati/blob/main/lilavati/Algebra/img/combination.png)
 1. If r is greater than n, return 0.
 2. If r is equal to 0 or r is equal to n, return 1.
 3. Initialize a variable product to 1.
@@ -130,7 +130,7 @@ The function returns an integer representing the number of permutation of choosi
 ## Algorithm
 
 The permutation algorithm is implemeted usign the following method from leelavati book 
-![alt text](img/permutation.png)
+![alt text](https://github.com/Kanishk-mittal/Project-Leelavati/blob/main/lilavati/Algebra/img/permutation.png)
 1. If r is greater than n, return 0.
 2. If r is equal to 0 or r is equal to n, return 1.
 3. Initialize a variable product to 1.
