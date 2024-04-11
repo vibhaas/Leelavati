@@ -186,7 +186,8 @@ The function returns an integer representing the sum of all permutations of the 
 print(sum_of_permutation([1, 2, 3]))  # Output: 1332
 ```
 
-# 5.Algorithm for finding square of a number 
+# 5.square()
+
 # description
 The method for obtaining the square according to Lilavati's technique offers a rapid solution while also presenting a distinctive and traditional approach to address the problem.
 ## input
@@ -214,9 +215,9 @@ we obtain square of the corresponding input
 4. hence the obtained answer is stored in num_square value and returned to the user.
 ## Algorithm
 The square algorithm is implemented using the following method from leelavati book
-![alt text](square.png)
+![alt text](https://github.com/Project-Leelavati/Leelavati/blob/main/lilavati/Algebra/img/square.png)
 
-# 6.Algorithm for finding cube of a number 
+# 6.cube()
 # description
 The method for obtaining the cube according to Lilavati's technique offers a rapid solution while also presenting a distinctive and traditional approach to address the problem.
 ## input
@@ -239,9 +240,9 @@ leelavati follows a particular method to find a cube of a number it involves 4 s
 
 ## Algorithm
 The cube algorithm is implemented using the following method from leelavati book
-![alt text](cube.png.png)
+![alt text](https://github.com/Project-Leelavati/Leelavati/blob/main/lilavati/Algebra/img/cube.png.png)
 
-# 7.Algorithm for finding square  root of a number 
+# 7.square root()  
 # description
 The square-root method given in leelavati gives a unique method to find square-root of given input it involves some complex mechanism but faster way to solve the problem mentally.
 ## input
@@ -270,9 +271,9 @@ also y that we obtain should be such that (y*y) should be less than d1 concatena
 
 ## Algorithm
 The square root algorithm is implemented using the following method from leelavati book
-![alt text](squareroot.png-1.png)
+![alt text](https://github.com/Project-Leelavati/Leelavati/blob/main/lilavati/Algebra/img/squareroot.png-1.png)
 
-# 8.Algorithm for finding cube  root of a number 
+# 8.cube root() 
 # Description
 The cube-root method given in leelavati gives a unique method to find cube_root of given input it involves 
 some complex mechanism but faster way to solve the problem mentally.
@@ -304,4 +305,4 @@ be positive and let it be d2 and now let d=d2,x=y and repeat the process 3 and 4
 
 ## Algorithm
 The cube root algorithm is implemented usi tnghe following method from leelavati book
-![alt text](cuberoot.png.png)
+![alt text](https://github.com/Project-Leelavati/Leelavati/blob/main/lilavati/Algebra/img/cube_root.png.png)
