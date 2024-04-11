@@ -185,3 +185,123 @@ The function returns an integer representing the sum of all permutations of the 
 ```python
 print(sum_of_permutation([1, 2, 3]))  # Output: 1332
 ```
+
+# 5.Algorithm for finding square of a number 
+# description
+The method for obtaining the square according to Lilavati's technique offers a rapid solution while also presenting a distinctive and traditional approach to address the problem.
+## input
+we take only integers as an input for this function any other number shall raise error
+
+## output
+we obtain square of the corresponding input
+
+## logical Explanation
+1. Split the given input number as each digit and place it in an array whose length is number of digits present in the number.
+
+2. for each digit stored in the array multiply the digit with it's corresponding place value and store in the same array again in the same position.
+
+3. we have to run two loops through the array which we have
+    3.1.The first loop iterates        through whole array while squaring each number present in the array and adding it and storing the obtained result in an variable called num_square
+
+    3.2. The second loop consist of nested loops.Let the first loop iterate from array[0] to len(array)-1 as i.
+
+    3.3. let the nested loop of second loop iterate from array[i+1] to len(array) as j.while iterating we generate value for 2*array[i]*array[j] and add it to the num_square variable.
+
+    3.4. This iteration is done until i does'nt reach len(array)-1 value.
+
+    3.5. for decimal point numbers we shift the decimal point to the end of the number such that the number becomes a whole number and find the square for it and return the user with the square value of that number by placing the decimal point in appropriate position.  
+
+4. hence the obtained answer is stored in num_square value and returned to the user.
+## Algorithm
+The square algorithm is implemented using the following method from leelavati book
+![alt text](square.png)
+
+# 6.Algorithm for finding cube of a number 
+# description
+The method for obtaining the cube according to Lilavati's technique offers a rapid solution while also presenting a distinctive and traditional approach to address the problem.
+## input
+we take only integers as an input for this function any other number shall raiseerror
+
+## output
+we obtain cube of the corresponding input
+
+## logical Explanation
+leelavati follows a particular method to find a cube of a number it involves 4 steps
+    1.initially separate the number into 2 parts one is the least significant digit part and other digits as one number
+    ex:if we are finding cube for number 125 separate it as 12 and 5
+    2.here comes 4 steps to find the cube of the number(example to find cube for 125)
+        2.1.cube the number separated from LSG i.e 12 and multiply with 1000 let it be x=1728*1000 
+        2.2.now find 3*(x*x)*LSG*100--> 3*(12*12)*5*100
+        2.3 find 3*(x)*(LSG*LSG)*10-->3*(12)*(5*5)*10
+        2.4 find cube of LSG
+    3.now add all the numbers obtained in 2.1,2.2,2.3,2.4 hence you will get the required number 
+    4.for decimal point numbers we shift the decimal point to the end of the number such that the number becomes a whole number and find the cube for it and return the user with the cube value of that number by placing the decimal point in appropriate position.  
+
+## Algorithm
+The cube algorithm is implemented using the following method from leelavati book
+![alt text](cube.png.png)
+
+# 7.Algorithm for finding square  root of a number 
+# description
+The square-root method given in leelavati gives a unique method to find square-root of given input it involves some complex mechanism but faster way to solve the problem mentally.
+## input
+we take only integers as an input for this function any other number shall raiseerror
+
+## output
+we obtain square root of the corresponding input
+
+## logical Explanation
+note:leelavati's method is distinguished for two type for numbers one which has odd number of digits and
+other for even number of digits leelavati's method involves 3 steps which is used repeatedly until the answer is not found
+1.find the length of the number and classify it as number with odd number of digits or even number of digits.
+
+2.for the number whose length is odd number the most significant digit is a single digit subtract the single digit with
+highest number which has a perfect square root and let that difference be d and the square root of that number be x and concatenate it in variable root_num_double.
+
+3.In next step take concatenate the MSB digit with the next digit i.e x+next.digit and subtract it with 2*x*y where y is a variable
+which will decide the appropriate digit to be used when 2*x*y is subtracted from x+next.digit(let that difference be d1) we don't get a negative number
+also y that we obtain should be such that (y*y) should be less than d1 concatenated wit next digit
+
+4.let d=d1 and x=y repeat process 3 and 4 to obtain the answer.
+
+5.After every fourth step concatenate y in root_num_double.
+
+6.note for the number whose length is even number the first 2 digits are considered as MSB and the same process is follows as step 2 3 and 4
+
+## Algorithm
+The square root algorithm is implemented using the following method from leelavati book
+![alt text](squareroot.png-1.png)
+
+# 8.Algorithm for finding cube  root of a number 
+# Description
+The cube-root method given in leelavati gives a unique method to find cube_root of given input it involves 
+some complex mechanism but faster way to solve the problem mentally.
+## input
+we take only integers as an input for this function any other number shall raise error
+
+## output
+we obtain cube root of the corresponding input
+
+## logical Explanation
+note:leelavati's cube_root method is distinguished for 3 type of numbers
+1.the length of number exactly divisible by 3(ex length:3,6,9)
+2.the length of number when divisible by 3 leaves remainder as one(ex length:4,7,10)
+3.the length of number when divisible by 3 leaves remainder as two(ex length:5,8,11)
+
+2.for the number whose length is 3n+1  the most significant digit(left-most digit) is a single digit subtract the single digit with the
+highest number which has a perfect cube root and let that difference be d and the cube root of that number be x and concatenate it in variable called cube_of_num.
+
+3.In next step concatenate the Most Significant digit with the next digit i.e x+next.digit and subtract it with 3*(x^2)*y where y is a variable
+which will decide the appropriate digit to be used when 3*(x^2)*y is subtracted from x+next.digit(let that difference be d1) we don't get a negative number(i.e d1 is not negative) and
+also y, that we obtain should be such that 3*x*(y^2) should be less than d1 concatenated with next digit
+
+4.After obtaining 3*x*(y^2) concatenate it with the next-digit and subtract that number with y^3  the obtained difference should 
+be positive and let it be d2 and now let d=d2,x=y and repeat the process 3 and 4 to obtain the answer.
+
+5.note after every 4th step concatenate y obtained in cube_of_num variable 
+
+6.note for the number whose length is 3n the first 3 digits are considered as MSB and for numbers having length 3n+2 the first 2 numbers are MSB and then same process is follows as step 2 3 and 4
+
+## Algorithm
+The cube root algorithm is implemented usi tnghe following method from leelavati book
+![alt text](cuberoot.png.png)
