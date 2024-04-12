@@ -17,7 +17,7 @@ computations, drawing inspiration from the methods described in the original wor
 ## Installation
    To install the library, you can use the following command:
    ```bash
-   pip install lilavati
+   pip install lilavati==1.0.0
    ```
    This will install the library and all its dependencies.
    Then, you can import the library in your Python code using the following command:
