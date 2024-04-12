@@ -15,9 +15,9 @@ def permutation(n: int, r: int) -> int:
         return 1
 
     product = 1
-    for i in range(r-1):
-        product *= n - i # n * (n-1) * (n-2) * ... * (n-r+1)
+    for i in range(r):
+        product = int(product) * int(n-i) # n * (n-1) * (n-2) * ... * (n-r+1)
     return product
 
 # Example usage:
-# print(permutation(10, 3))  # Output: 20
+# print(permutation(10, 3))  # Output: 720

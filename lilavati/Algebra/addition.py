@@ -5,6 +5,6 @@ def add(*args):
 
     res = 0
     for i in range(len(column_sums)):
-        res += column_sums[i]10*(i)
-        
+        res += column_sums[i]*10**(i)
     return res
+

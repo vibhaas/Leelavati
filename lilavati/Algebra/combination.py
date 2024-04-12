@@ -22,4 +22,4 @@ def combination(n: int, r: int) -> int:
     return product
 
 # Example usage:
-# print(calculate_combinations(5, 3))  # Output: 10
+# print(combination(5, 3))  # Output: 10
