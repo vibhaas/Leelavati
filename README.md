@@ -1,11 +1,11 @@
-# LEELAVATI LIBRARY
+# LILAVATI LIBRARY
 
-The Leelavati library is a Python implementation inspired by the classic mathematical treatise "Leelavati" written by 
+The Lilavati library is a Python implementation inspired by the classic mathematical treatise "Leelavati" written by 
 the Indian mathematician Bhaskaracharya. This library aims to provide functions and utilities for various mathematical 
 computations, drawing inspiration from the methods described in the original work.
 
 ## Contributing
-   The Leelavati library is a collaborative effort by a group of 6 students:
+   The Lilavati library is a collaborative effort by a group of 6 students:
    
     - Kshitij Joshi
     - Kanishk Mittal
@@ -17,7 +17,7 @@ computations, drawing inspiration from the methods described in the original wor
 ## Installation
    To install the library, you can use the following command:
    ```bash
-   pip install leelavati
+   pip install lilavati==1.0.0
    ```
    This will install the library and all its dependencies.
    Then, you can import the library in your Python code using the following command:
@@ -42,7 +42,7 @@ computations, drawing inspiration from the methods described in the original wor
    ```
 
    ## Contribution Guidelines
-We welcome contributions to the Leelavati library! If you would like to contribute, please follow these guidelines:
+We welcome contributions to the Lilavati library! If you would like to contribute, please follow these guidelines:
 
    1. Fork the repository and create a new branch for your contribution.
    2. Make your changes or additions to the codebase.
@@ -53,7 +53,7 @@ We welcome contributions to the Leelavati library! If you would like to contribu
    3. Commit your changes and push them to your forked repository.
    4. Submit a pull request to the main repository, explaining the purpose and details of your contribution.
    Our team will review your pull request and provide feedback. Once your contribution is accepted, it will be merged into the main codebase.
-   Thank you for your interest in contributing to the Leelavati library!
+   Thank you for your interest in contributing to the Lilavati library!
 
 
 ## Documentation

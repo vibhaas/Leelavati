@@ -142,22 +142,3 @@ def square_root(num):
 
 
 '''note: algorithm only for int type number not for any data type'''   
-                        
-                    
-                        
-                    
-                    
-                
-                
-                
-            
-            
-            
-            
-            
-        
-   
-                
-                
-            
-    
