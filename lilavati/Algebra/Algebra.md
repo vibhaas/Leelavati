@@ -104,7 +104,7 @@ The combinaiton algorithm is implemeted usign the following method from leelavat
 
 ## Complexity
 
-- **Time Complexity**: O(r)
+- **Time Complexity**: O(r) \[* footnote 1]
 - **Space Complexity**: O(1)
 
 ## Example Usage
@@ -141,7 +141,7 @@ The permutation algorithm is implemeted usign the following method from leelavat
 
 ## Complexity
 
-- **Time Complexity**: O(r)
+- **Time Complexity**: O(r) \[* footnote 1]
 - **Space Complexity**: O(1)
 
 ## Example Usage
@@ -306,3 +306,7 @@ be positive and let it be d2 and now let d=d2,x=y and repeat the process 3 and 4
 ## Algorithm
 The cube root algorithm is implemented usi tnghe following method from leelavati book
 ![alt text](https://github.com/Project-Leelavati/Leelavati/blob/main/lilavati/Algebra/img/cube_root.png.png)
+
+### Footnotes
+
+1. For large numbers, the combination and permutation functions run in O(n (n log n)^1.585 ), since multiplying large numbers in python uses [Karatsuba Multiplication](https://en.wikipedia.org/wiki/Karatsuba_algorithm), and the digits grow in the order of O(n!) = O(n log n).
